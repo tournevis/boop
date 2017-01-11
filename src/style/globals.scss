@@ -1,0 +1,9 @@
+@import "~style/font";
+
+body{
+  @include font-face('gotham-medium', '~assets/fonts/gotham/medium/gotham-medium', null, null, woff woff2 eot svg ttf);
+  @include font-face('gotham-book', '~assets/fonts/gotham/book/gotham-book', null, null, woff otf eot svg ttf);
+  font-family: 'gotham-medium';
+  padding: 0;
+  margin: 0;
+}
